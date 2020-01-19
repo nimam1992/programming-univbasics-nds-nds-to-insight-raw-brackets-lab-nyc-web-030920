@@ -59,6 +59,30 @@ def directors_totals(nds)
     rz_count+=1
   end
   rz_total
+
+  qr_total = 0
+  qr_count = 0
+  while qr_count < nds[7][:movies].length do
+    qr_total += nds[7][:movies][qr_count][:worldwide_gross]
+    qr_count+=1
+  end
+  qr_total
+
+  ms_total = 0
+  ms_count = 0
+  while ms_count < nds[8][:movies].length do
+    ms_total += nds[8][:movies][ms_count][:worldwide_gross]
+    ms_count+=1
+  end
+  ms_total
+
+  fc_total = 0
+  fc_count = 0
+  while fc_count < nds[9][:movies].length do
+    fc_total += nds[9][:movies][fc_count][:worldwide_gross]
+    fc_count+=1
+  end
+  fc_total
   
   result = {
     'Stephen Spielberg'=>ss_total,
