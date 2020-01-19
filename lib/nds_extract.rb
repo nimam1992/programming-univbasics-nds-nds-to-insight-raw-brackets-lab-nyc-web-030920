@@ -28,14 +28,22 @@ def directors_totals(nds)
   end
   jc_total
 
-  jc_total = 0
-  jb_count = 0
-  while jb_count < nds[2][:movies].length do
-    jb_total += nds[2][:movies][rb_count][:worldwide_gross]
-    jb_count+=1
+  sl_total = 0
+  sl_count = 0
+  while sl_count < nds[3][:movies].length do
+    jb_total += nds[3][:movies][sl_count][:worldwide_gross]
+    sl_count+=1
   end
-  jb_total
+  sl_total
 
+  ws_total = 0
+  ws_count = 0
+  while ws_count < nds[4][:movies].length do
+    ws_total += nds[4][:movies][ws_count][:worldwide_gross]
+    ws_count+=1
+  end
+  ws_total
+  
   result = {
     'Stephen Spielberg'=>ss_total,
     'Russo Brothers'=>rb_total
