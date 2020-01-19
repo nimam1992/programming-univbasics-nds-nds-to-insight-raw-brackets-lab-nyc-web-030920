@@ -21,6 +21,7 @@ def directors_totals(nds)
   rb_total
   result = {
     'Stephen Spielberg'=>ss_total
+    'Russo Brothers'=>rb_total
   }
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
