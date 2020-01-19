@@ -81,7 +81,7 @@ def directors_totals(nds)
     'Russo Brothers'=>rb_total,
     'James Cameron'=>jc_total,
     'Spike Lee'=>sl_total,
-    'Wachowski Siblings'=>wb_total,
+    'Wachowski Siblings'=>ws_total,
     'Robert Zemeckis'=>rz_total,
     'Quentin Tarantino'=>qr_total,
     'Martin Scorsese'=>ms_total,
