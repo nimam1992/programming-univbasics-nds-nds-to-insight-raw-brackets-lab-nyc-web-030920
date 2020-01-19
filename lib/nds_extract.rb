@@ -11,7 +11,7 @@ def directors_totals(nds)
   end
   ss_total
   result = {
-    'Stepheh Spielberg'=>[0][:movies][0][:worldwide_gross]
+    'Stepheh Spielberg'=>ss_total
   }
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
