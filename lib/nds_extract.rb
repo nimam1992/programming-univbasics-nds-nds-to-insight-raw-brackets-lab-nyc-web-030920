@@ -4,6 +4,9 @@ require 'directors_database'
 directors_database
 
 def directors_totals(nds)
+  result = {
+    'Stephen Spielberg'=>ss_total
+  }
   ss_total = 0
   ss_count = 0
   while ss_count < directors_database[0][:movies].length do
@@ -11,18 +14,6 @@ def directors_totals(nds)
     ss_count+=1
   end
   ss_total
-  result = {
-    'Stephen Spielberg'=>ss_total
-  }
-  #
-  # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
-  # ...
-  # ...
-  # ...
-  #
-  #
-  # Be sure to return the result at the end!
   result
 end
 
