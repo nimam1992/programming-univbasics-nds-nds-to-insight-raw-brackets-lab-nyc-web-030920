@@ -27,4 +27,4 @@ def directors_totals(nds)
   result
 end
 
-pp directors_database
+pp directors_database[0][:movies][0][:worldwide_gross]
