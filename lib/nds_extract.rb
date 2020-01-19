@@ -20,7 +20,7 @@ def directors_totals(nds)
   end
   rb_total
   result = {
-    'Stephen Spielberg'=>ss_total
+    'Stephen Spielberg'=>ss_total,
     'Russo Brothers'=>rb_total
   }
   #
