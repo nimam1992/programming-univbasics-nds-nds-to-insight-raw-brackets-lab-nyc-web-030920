@@ -31,7 +31,7 @@ def directors_totals(nds)
   sl_total = 0
   sl_count = 0
   while sl_count < nds[3][:movies].length do
-    jb_total += nds[3][:movies][sl_count][:worldwide_gross]
+    sl_total += nds[3][:movies][sl_count][:worldwide_gross]
     sl_count+=1
   end
   sl_total
