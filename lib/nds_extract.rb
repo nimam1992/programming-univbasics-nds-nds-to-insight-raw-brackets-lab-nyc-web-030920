@@ -46,7 +46,7 @@ def directors_totals(nds)
 
   rz_total = 0
   rz_count = 0
-  while sl_count < nds[5][:movies].length do
+  while rz_count < nds[5][:movies].length do
     rz_total += nds[5][:movies][rz_count][:worldwide_gross]
     rz_count+=1
   end
