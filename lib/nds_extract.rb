@@ -86,7 +86,14 @@ def directors_totals(nds)
 
   result = {
     'Stephen Spielberg'=>ss_total,
-    'Russo Brothers'=>rb_total
+    'Russo Brothers'=>rb_total,
+    'James Cameron'=>jc_total,
+    'Spike Lee'=>sl_total,
+    'Wachowski Siblings'=>wb_total,
+    'Robert Zemeckis'=>rz_total,
+    'Quentin Tarantino'=>qr_total,
+    'Martin Scorsese'=>ms_total,
+    'Francis Ford Coppola'=>fc_total 
   }
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
