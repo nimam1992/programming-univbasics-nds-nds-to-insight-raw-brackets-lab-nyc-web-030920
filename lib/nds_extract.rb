@@ -44,42 +44,34 @@ def directors_totals(nds)
   end
   ws_total
 
-  sl_total = 0
-  sl_count = 0
-  while sl_count < nds[5][:movies].length do
-    sl_total += nds[5][:movies][sl_count][:worldwide_gross]
-    sl_count+=1
-  end
-  sl_total
-
   rz_total = 0
   rz_count = 0
-  while sl_count < nds[6][:movies].length do
-    rz_total += nds[6][:movies][rz_count][:worldwide_gross]
+  while sl_count < nds[5][:movies].length do
+    rz_total += nds[5][:movies][rz_count][:worldwide_gross]
     rz_count+=1
   end
   rz_total
 
   qr_total = 0
   qr_count = 0
-  while qr_count < nds[7][:movies].length do
-    qr_total += nds[7][:movies][qr_count][:worldwide_gross]
+  while qr_count < nds[6][:movies].length do
+    qr_total += nds[6][:movies][qr_count][:worldwide_gross]
     qr_count+=1
   end
   qr_total
 
   ms_total = 0
   ms_count = 0
-  while ms_count < nds[8][:movies].length do
-    ms_total += nds[8][:movies][ms_count][:worldwide_gross]
+  while ms_count < nds[7][:movies].length do
+    ms_total += nds[7][:movies][ms_count][:worldwide_gross]
     ms_count+=1
   end
   ms_total
 
   fc_total = 0
   fc_count = 0
-  while fc_count < nds[9][:movies].length do
-    fc_total += nds[9][:movies][fc_count][:worldwide_gross]
+  while fc_count < nds[8][:movies].length do
+    fc_total += nds[8][:movies][fc_count][:worldwide_gross]
     fc_count+=1
   end
   fc_total
